@@ -1,7 +1,11 @@
 import Image from "next/image";
+import Login from "../components/Login/Login";
 
 export default function Home() {
   return (
-    <h1>Hello word</h1>
+    <main>
+    <h1 className="text-white text-4xl mb-12 font-bold">Conectrilhos</h1>
+    <Login />
+    </main>
   );
 }
