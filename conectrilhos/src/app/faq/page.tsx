@@ -1,6 +1,6 @@
 import React from 'react';
 import Cabecalho from '@/components/Cabecalho/Cabecalho';
-import FaqComponent from '@/components/FaqComp/';
+import FaqComponent from '@/components/FaqComp/faq';
  
 export default function FaqPage() {
   return (
