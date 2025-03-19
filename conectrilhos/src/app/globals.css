@@ -4,6 +4,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --inner-block: rgba(127, 29, 29, 0.5);
+  --text-color: #ffffff;
+  --border-radius: 8px;
 }
 
 @theme inline {
@@ -107,4 +110,26 @@ main {
 
 .submit-btn:hover {
   background-color: #444444;
+}
+
+/* Estilos para a página de serviços */
+.map {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-color: rgba(31, 41, 55, 0.8);
+  border-radius: var(--border-radius);
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #10B981;
+  border-radius: 50%;
+}
+
+.mensagem-avatar {
+  width: 32px;
+  height: 32px;
+  background-color: rgba(55, 65, 81, 0.8);
+  border-radius: 50%;
 }
