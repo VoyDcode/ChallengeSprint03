@@ -6,7 +6,7 @@ export default function Menu() {
         <ul>
             <li className="inline p-10"><Link href="/">Home</Link></li>
             <li className="inline p-10"><Link href="/servicos">Servicos</Link></li>
-            <li className="inline p-10"><Link href="/page">FAQ</Link></li>
+            <li className="inline p-10"><Link href="/page">faq</Link></li>
         </ul>
      </nav>
     );
