@@ -11,7 +11,6 @@ export default function FaqPage() {
         style={{ backgroundImage: 'url("/background-img-02.jpg")', backgroundSize: 'cover' }}
       >
         <div className="max-w-3xl mx-auto">
-          {/* Título invisível para acessibilidade */}
           <h1 className="sr-only">Perguntas Frequentes - ConecTrilho</h1>
          
           {/* Componente FAQ */}
